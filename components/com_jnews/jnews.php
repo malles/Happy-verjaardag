@@ -368,7 +368,7 @@ switch ($action) {
 	//bixie verjaardag
 	case ('sendVerjaardag'): // /index.php?option=com_jnews&act=sendVerjaardag
 		$date = JFactory::getDate();
-		$date->add(new DateInterval('P2D'));
+		$date->add(new DateInterval('P3D'));
 		$db = JFactory::getDbo();
 		$err = array();
 		//waspas mailinglist
